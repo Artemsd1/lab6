@@ -6,7 +6,8 @@ void selectionSort(int arr[], int size) {
     int minIndex;
 
     // Traverse the array and select the minimum element
-    for (int i = 0; i < size - 1; i++) {
+    for (int i = 3; i < size - 1; i++) //взять из feature
+    {
         minIndex = i;
         for (int j = i + 1; j < size; j++) {
             if (arr[j] < arr[minIndex]) {
