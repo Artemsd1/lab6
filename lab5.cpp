@@ -2,6 +2,7 @@
 using namespace std;
 
 void selectionSort(int arr[], int size) {
+    //-----first area-----
     int minIndex;
 
     // Traverse the array and select the minimum element
@@ -14,6 +15,7 @@ void selectionSort(int arr[], int size) {
         }
 
         // Swap the minimum element with the first element
+        //-----second area-----
         int temp = arr[i];
         arr[i] = arr[minIndex];
         arr[minIndex] = temp;
@@ -21,6 +23,7 @@ void selectionSort(int arr[], int size) {
 }
 
 int main() {
+    //-----third area-----
     int arr[] = {5, 9, 3, 1, 8, 4, 7};
     int size = sizeof(arr) / sizeof(arr[0]);
 
