@@ -25,7 +25,7 @@ void selectionSort(int arr[], int size) {
 
 int main() {
     //-----third area-----
-    int arr[] = {5, 9, 3, 1, 8, 4, 7};
+    int arr[] = {5, 9, 3, 1, 3, 2, 15}; //взять из обеих веток 
     int size = sizeof(arr) / sizeof(arr[0]);
 
     selectionSort(arr, size);
