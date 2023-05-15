@@ -17,7 +17,7 @@ void selectionSort(int arr[], int size) {
 
         // Swap the minimum element with the first element
         //-----second area-----
-        int temp = arr[i];
+        int temp = arr[i]; //взять из master
         arr[i] = arr[minIndex];
         arr[minIndex] = temp;
     }
